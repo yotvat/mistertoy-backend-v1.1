@@ -3,7 +3,7 @@ import { logger } from '../../services/logger.service.js'
 
 export async function getToys(req, res) {
     try {
-
+        
         const filterBy = {
             txt: req.query.txt || '',
             maxPrice: +req.query.maxPrice || Infinity,
@@ -12,7 +12,7 @@ export async function getToys(req, res) {
         }
         const sortBy = {
             type: req.query.type || 'name',
-            dir: req.query.dir || 1
+            dir: +req.query.dir || 1
         }
 
         logger.debug('Getting Toys', filterBy, sortBy)

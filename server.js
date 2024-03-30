@@ -25,7 +25,7 @@ if (process.env.NODE_ENV === 'production') {
     // Configuring CORS
     const corsOptions = {
         // Make sure origin contains the url your frontend is running on
-        origin: ['http://127.0.0.1:5173', 'http://localhost:5173','http://127.0.0.1:3000', 'http://localhost:3000'],
+        origin: ['http://127.0.0.1:5173', 'http://localhost:5173','http://localhost:5175','http://127.0.0.1:3000', 'http://localhost:3000'],
         credentials: true
     }
     app.use(cors(corsOptions))
@@ -34,13 +34,11 @@ if (process.env.NODE_ENV === 'production') {
 import { authRoutes } from './api/auth/auth.routes.js'
 import { userRoutes } from './api/user/user.routes.js'
 import { toyRoutes } from './api/toy/toy.routes.js'
-// import { bugRoutes } from './api/bug/bug.routes.js'
 
 // routes
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/toy', toyRoutes)
-// app.use('/api/bug', bugRoutes)
 
 // Make every unmatched server-side-route fall back to index.html
 // So when requesting http://localhost:3030/index.html/toy/123 it will still respond with

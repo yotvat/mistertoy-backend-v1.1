@@ -7,12 +7,14 @@ import { utilService } from '../../services/util.service.js'
 
 async function query(filterBy, sortBy) {
     try {
+        const inStock = filterBy.inStock === 'inStock'
         const criteria = {
             name: { $regex: filterBy.txt, $options: 'i' },
             price: { $lte: filterBy.maxPrice },
-            ...(filterBy.inStock !== 'all' && { inStock: filterBy.inStock === 'true' })
+            ...(filterBy.inStock !== 'all' && { inStock })
         }
-        const { type, dir } = sortBy
+        const type = sortBy.type
+        const dir = sortBy.dir
         const sort = { [type]: dir }
 
         const collection = await dbService.getCollection('toy')
