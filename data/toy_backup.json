@@ -6,7 +6,26 @@
       "Art",
       "Baby"
     ],
-    "inStock": true
+    "inStock": true,
+    "msgs": [
+      {
+        "_id": "m101",
+        "txt": "great toy-how much?",
+        "by": {
+          "_id": "6607ee1bfa39fc0fdd714a01",
+          "fullname": "soso mcSoso"
+        }
+      },
+      {
+        "_id": "m102",
+        "txt": "m2 great toy-how much?",
+        "by": {
+          "_id": "6607ee1bfa39fc0fdd714a01",
+          "fullname": "soso mcSoso"
+        }
+      }
+
+    ]
   },
   {
     "name": "Batman",
@@ -17,10 +36,25 @@
       "Battery Powered",
       "Box game"
     ],
-    "inStock": true
+    "inStock": true,
+    "msgs": [{
+      "_id": "m101",
+      "txt": "great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    },
+    {
+      "_id": "m102",
+      "txt": "m2 great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    }]
   },
   {
-
     "name": "BuzzLightYear",
     "price": 27,
     "labels": [
@@ -28,8 +62,23 @@
       "Doll",
       "Baby"
     ],
-
-    "inStock": false
+    "inStock": false,
+    "msgs": [{
+      "_id": "m101",
+      "txt": "great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    },
+    {
+      "_id": "m102",
+      "txt": "m2 great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    }]
   },
   {
     "name": "Darth Vader",
@@ -38,8 +87,23 @@
       "Battery Powered",
       "Box game"
     ],
-    "inStock": true
-
+    "inStock": true,
+    "msgs": [{
+      "_id": "m101",
+      "txt": "great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    },
+    {
+      "_id": "m102",
+      "txt": "m2 great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    }]
   },
   {
     "name": "Cat in the hat",
@@ -48,8 +112,23 @@
       "Baby",
       "Box game"
     ],
-    "inStock": false
-
+    "inStock": false,
+    "msgs": [{
+      "_id": "m101",
+      "txt": "great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    },
+    {
+      "_id": "m102",
+      "txt": "m2 great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    }]
   },
   {
     "name": "Uncle Sam",
@@ -58,8 +137,23 @@
       "Art",
       "Doll"
     ],
-    "inStock": true
- 
+    "inStock": true,
+    "msgs": [{
+      "_id": "m101",
+      "txt": "great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    },
+    {
+      "_id": "m102",
+      "txt": "m2 great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    }]
   },
   {
     "name": "Billie Jean",
@@ -68,8 +162,23 @@
       "Battery Powered",
       "Box game"
     ],
-    "inStock": false
-
+    "inStock": false,
+    "msgs": [{
+      "_id": "m101",
+      "txt": "great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    },
+    {
+      "_id": "m102",
+      "txt": "m2 great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    }]
   },
   {
     "name": "Bugs Bunny",
@@ -78,8 +187,23 @@
       "Doll",
       "Outdoor"
     ],
-    "inStock": true
-
+    "inStock": true,
+    "msgs": [{
+      "_id": "m101",
+      "txt": "great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    },
+    {
+      "_id": "m102",
+      "txt": "m2 great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    }]
   },
   {
     "name": "Teddy Bear",
@@ -88,8 +212,23 @@
       "On wheels",
       "Art"
     ],
-    "inStock": false
-
+    "inStock": false,
+    "msgs": [{
+      "_id": "m101",
+      "txt": "great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    },
+    {
+      "_id": "m102",
+      "txt": "m2 great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    }]
   },
   {
     "name": "Bob the builder",
@@ -98,8 +237,23 @@
       "On wheels",
       "Art"
     ],
-    "inStock": false
-
+    "inStock": false,
+    "msgs": [{
+      "_id": "m101",
+      "txt": "great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    },
+    {
+      "_id": "m102",
+      "txt": "m2 great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    }]
   },
   {
     "name": "Johnny boy",
@@ -108,8 +262,23 @@
       "Baby",
       "Box game"
     ],
-    "inStock": true
-
+    "inStock": true,
+    "msgs": [{
+      "_id": "m101",
+      "txt": "great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    },
+    {
+      "_id": "m102",
+      "txt": "m2 great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    }]
   },
   {
     "name": "Queen charles",
@@ -118,7 +287,22 @@
       "Art",
       "Baby"
     ],
-    "inStock": true
-
+    "inStock": true,
+    "msgs": [{
+      "_id": "m101",
+      "txt": "great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    },
+    {
+      "_id": "m102",
+      "txt": "m2 great toy-how much?",
+      "by": {
+        "_id": "6607ee1bfa39fc0fdd714a01",
+        "fullname": "soso mcSoso"
+      }
+    }]
   }
 ]

@@ -81,6 +81,7 @@ export async function addToyMsg(req, res) {
         }
         const savedMsg = await toyService.addToyMsg(toyId, msg)
         res.json(savedMsg)
+        return savedMsg
     } catch (err) {
         logger.error('Failed to update toy', err)
         res.status(500).send({ err: 'Failed to update toy' })
