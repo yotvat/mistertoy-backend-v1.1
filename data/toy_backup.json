@@ -9,7 +9,7 @@
     "inStock": true
   },
   {
-    "name": "batman",
+    "name": "Batman",
     "price": 18,
     "labels": [
       "On wheels",
@@ -89,6 +89,36 @@
       "Art"
     ],
     "inStock": false
+
+  },
+  {
+    "name": "Bob the builder",
+    "price": 400,
+    "labels": [
+      "On wheels",
+      "Art"
+    ],
+    "inStock": false
+
+  },
+  {
+    "name": "Johnny boy",
+    "price": 10,
+    "labels": [
+      "Baby",
+      "Box game"
+    ],
+    "inStock": true
+
+  },
+  {
+    "name": "Queen charles",
+    "price": 1000,
+    "labels": [
+      "Art",
+      "Baby"
+    ],
+    "inStock": true
 
   }
 ]

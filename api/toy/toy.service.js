@@ -6,17 +6,19 @@ import { logger } from '../../services/logger.service.js'
 import { utilService } from '../../services/util.service.js'
 
 async function query(filterBy, sortBy) {
+    console.log(filterBy.inStock)
     try {
-        const inStock = filterBy.inStock === 'inStock'
+        const inStock = filterBy.inStock === 'true'
         const criteria = {
             name: { $regex: filterBy.txt, $options: 'i' },
             price: { $lte: filterBy.maxPrice },
-            ...(filterBy.inStock !== 'all' && { inStock })
+            ...(filterBy.inStock !== 'all' &&  {inStock} )
         }
         const type = sortBy.type
         const dir = sortBy.dir
         const sort = { [type]: dir }
 
+        console.log(criteria);
         const collection = await dbService.getCollection('toy')
         var toys = await collection.find(criteria).sort(sort).toArray()
         return toys
@@ -62,7 +64,9 @@ async function update(toy) {
     try {
         const toyToSave = {
             name: toy.name,
-            price: toy.price
+            price: toy.price,
+            labels: toy.labels,
+            inStock: toy.inStock
         }
         const collection = await dbService.getCollection('toy')
         await collection.updateOne({ _id: ObjectId(toy._id) }, { $set: toyToSave })
